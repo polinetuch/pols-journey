@@ -1,6 +1,6 @@
 .my-skills {
   &__container {
-    min-height: 100%;
+    min-height: 80vh;
   }
   &__images {
     display: flex;
@@ -9,7 +9,7 @@
   }
 
   &__img-element {
-    width: 100px;
-    height: 100px;
+    width: 89px;
+    height: 89px;
   }
 }

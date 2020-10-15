@@ -1,25 +1,12 @@
 .landing-page {
   &__container {
-    min-height: 100%;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #f9e8e3;
-    background-repeat: none;
   }
 
   &__text {
     font-size: 40px;
-  }
-
-  &__social-media {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  &__social-media img {
-    width: 180px;
-    height: 180px;
   }
 }

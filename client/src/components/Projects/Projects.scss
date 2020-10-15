@@ -1,0 +1,31 @@
+.projects {
+  &__container {
+    min-height: 80vh;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__figure-element {
+    padding: 5px;
+    box-shadow: 1px 1px 1px 1px #ebebeb;
+  }
+
+  &__figure-element:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    box-shadow: 1px 1px 1px 2px grey;
+  }
+
+  &__figure-element figcaption a {
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+  }
+  &__item-image {
+    width: 225px;
+  }
+}
