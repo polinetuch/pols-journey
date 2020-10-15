@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.scss';
+import LandingPage from './components/LandingPage/LandingPage';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <h1>Poli's Portfolio v3.0</h1>
+      <LandingPage/>
     </div>
   );
 }

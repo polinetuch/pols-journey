@@ -1,0 +1,28 @@
+.landing-page {
+  &__container {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 40px;
+  }
+
+  &__social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  &__social-media img {
+    width: 208px;
+    height: 208px;
+  }
+
+  //   &__github {
+  //     width: 250px;
+  //     height: 250px;
+  //   }
+}
