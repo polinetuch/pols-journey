@@ -4,6 +4,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #f9e8e3;
+    background-repeat: none;
   }
 
   &__text {
@@ -17,12 +19,7 @@
   }
 
   &__social-media img {
-    width: 208px;
-    height: 208px;
+    width: 180px;
+    height: 180px;
   }
-
-  //   &__github {
-  //     width: 250px;
-  //     height: 250px;
-  //   }
 }

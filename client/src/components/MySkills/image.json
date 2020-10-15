@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "name": "Javascript",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"
+    },
+    {
+        "id": 2,
+        "name": "React",
+        "image": "https://cdn.worldvectorlogo.com/logos/react.svg"
+    },
+    {
+        "id": 4,
+        "name": "HTML",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png"
+    },
+    {
+        "id": 5,
+        "name": "CSS",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/CSS.3.svg/1200px-CSS.3.svg.png"
+    },
+    {
+        "id": 6,
+        "name": "SASS",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"
+    },
+    {
+        "id": 7,
+        "name": "Bootstrap",
+        "image": "https://i.pinimg.com/originals/c1/78/5d/c1785d50a929254419fa4aad0560b058.png"
+    },
+    {
+        "id": 8,
+        "name": "Node JS",
+        "image": "https://seeklogo.net/wp-content/uploads/2015/09/nodejs-logo-vector-download.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Express JS",
+        "image": "https://miro.medium.com/max/250/1*3ABPMVLRjEvRWJejNY5YOw.png"
+    },
+    {
+        "id": 10,
+        "name": "MySQL",
+        "image": "https://sqlbackupandftp.com/blog/wp-content/uploads/2015/01/mysql-logo_2800x2800_pixels1.png"
+    },
+    {
+        "id": 11,
+        "name": "MongoDB",
+        "image": "https://g.foolcdn.com/art/companylogos/square/mdb.png"
+    },
+    {
+        "id": 12,
+        "name": "Firebase",
+        "image": "https://techtonicinfosystems.com/wp-content/uploads/2020/04/Firebase-1.png"
+    },
+    {
+        "id": 13,
+        "name": "API",
+        "image": "https://hackernoon.com/hn-images/1*lAR9Uh_gJ7dp23e0vhy5Hg.png"
+    },
+    {
+        "id": 14,
+        "name": "Mocha JS",
+        "image": "https://res.cloudinary.com/teepublic/image/private/s--ueFmIKOL--/t_Preview/b_rgb:000000,c_limit,f_jpg,h_630,q_90,w_630/v1526690812/production/designs/2701917_0.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Chai JS",
+        "image": "https://banner2.cleanpng.com/20180430/cae/kisspng-mocha-javascript-node-js-test-driven-development-a-chai-sheng-5ae7aa529013f4.9462065815251318585902.jpg"
+    }
+]

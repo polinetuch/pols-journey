@@ -1,0 +1,15 @@
+.my-skills {
+  &__container {
+    min-height: 100%;
+  }
+  &__images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__img-element {
+    width: 100px;
+    height: 100px;
+  }
+}
