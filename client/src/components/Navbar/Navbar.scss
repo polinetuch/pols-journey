@@ -12,19 +12,19 @@
     padding: 0 1rem;
   }
 
-  &__nav-items a {
+  &__navbar-items a {
     text-decoration: none;
     color: #000;
   }
 
-  &__nav-items ul {
+  &__navbar-items ul {
     list-style-type: none;
     margin: 5px;
     padding: 10px;
     display: flex;
   }
 
-  &__nav-items li {
+  &__navbar-items li {
     padding: 0 0.5rem;
   }
 
