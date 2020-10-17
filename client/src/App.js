@@ -11,12 +11,12 @@ import Backdrop from './components/Navbar/Backdrop/Backdrop';
 const App = () => {
   const [openSideDrawer, setOpenSideDrawer] = useState(false);
   
-  const handleOpenSideDrawer = () => {
+  const handleOpenSideDrawer = (prevState) => {
     setOpenSideDrawer((prevState) => !prevState);
   };
 
   const handleBackdropClick = () => {
-    setOpenSideDrawer(false)
+    setOpenSideDrawer((prevState) => !prevState)
   };
 
   let backdrop;
