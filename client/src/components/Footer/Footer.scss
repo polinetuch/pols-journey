@@ -2,14 +2,15 @@
   &__container {
     min-height: 80vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   &__icon {
-    width: 180px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
   }
 
   &__navigation {
@@ -19,6 +20,8 @@
 
   &__navigation-list {
     list-style: none;
+    font-size: 19px;
+    line-height: 5vh;
   }
 
   &__navigation-list a {
