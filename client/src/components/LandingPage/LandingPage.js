@@ -3,7 +3,7 @@ import './LandingPage.scss';
 
 const LandingPage = () => {
     return (
-        <div className='landing-page__container'>
+        <div className='landing-page__container' id='home'>
             <div className='landing-page__text'>
                 <h1>Polinet Uch</h1>
                 <p>a full stack developer</p>

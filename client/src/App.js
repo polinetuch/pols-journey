@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.scss';
 import LandingPage from './components/LandingPage/LandingPage';
+import AboutMe from './components/AboutMe/AboutMe';
 import MySkills from './components/MySkills/MySkills';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
@@ -30,6 +31,7 @@ const App = () => {
       <SideDrawer showSideDrawer={openSideDrawer}/>
       {backdrop}
       <LandingPage/>
+      <AboutMe/>
       <MySkills/>
       <Projects/>
       <Footer/>

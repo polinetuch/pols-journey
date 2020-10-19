@@ -12,7 +12,7 @@ const MySkills = () => {
         )
     })
     return (
-        <div className='my-skills__container'>
+        <div className='my-skills__container' id='my-skills'>
             <h1>Technical Skills</h1>
             <div className='my-skills__images'>
                 {showAllImages}

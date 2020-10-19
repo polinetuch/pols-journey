@@ -19,7 +19,7 @@ const Projects = () => {
         )
     })
     return (
-        <div className='projects__container'>
+        <div className='projects__container' id='projects'>
             <h1>Projects I have built...</h1>
             <div className='projects__cards'>
                 {showProjectItems}
