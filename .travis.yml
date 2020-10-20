@@ -10,10 +10,11 @@ branches:
     - main
 
 cache:
-  directories:
-    - node_modules
+  path:
+    - /client
 
 script:
+  - npm test
   - npm run build
 
 deploy:
