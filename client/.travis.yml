@@ -10,8 +10,10 @@ branches:
     - main
 
 cache:
-  directories:
+  paths:
     - /client
+  directories:
+    - node_modules
 
 script:
   - npm test
