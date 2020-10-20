@@ -16,12 +16,12 @@ const LandingPage = () => {
             <div className='landing-page__about-me'>
                 <h1>Hi, I'm Polinet Uch</h1>
                 <p>
-                    I am  full stack developer, specialising
+                    I am aspiring full stack developer, specialising
                     in Javascript based frameworks. I enjoy
                     creating and making things look nice.
                 </p>        
                 <p>
-                    I also have a love towards backend development.
+                    I also have a passion towards backend development.
                     The ability to pass values to functions and
                     telling it to do things for you step by step
                     is just pure automation process.

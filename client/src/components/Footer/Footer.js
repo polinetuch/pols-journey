@@ -1,19 +1,22 @@
 import React from 'react';
 import './Footer.scss';
+import Contact from '../Contact/Contact';
+import { FcHome, FcList, FcFile } from 'react-icons/fc';
 
 const Footer = () => {
     return (
         <div className='footer__container'>
             <div className='footer__navigation'>
                 <ul className='footer__navigation-list'>
-                    <li><a href='/#home'>Home</a></li>
-                    <li><a href='/#about-me'>About</a></li>
-                    <li><a href='/#my-skills'>Skills</a></li>
-                    <li><a href='/#projects'>Projects</a></li>
-                    <li><a href='/#contact'>Contact</a></li>
+                    <li><a href='/#home'><FcHome className='footer__icon'/> Home</a></li>
+                    <li><a href='/#my-skills'><FcList className='footer__icon'/> Skills</a></li>
+                    <li><a href='/#projects'><FcFile className='footer__icon'/> Projects</a></li>
                 </ul>
             </div>
-            <div className='footer__social-media'>
+            <div>
+                <Contact/>
+            </div>
+            {/* <div className='footer__social-media'>
                 <a href='https://www.linkedin.com/in/polinetuch/'>
                     <img 
                         className='footer__icon'
@@ -29,7 +32,7 @@ const Footer = () => {
                         alt='github'
                     />
                 </a>
-            </div>
+            </div> */}
         </div>
 
     )
