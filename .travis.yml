@@ -10,7 +10,7 @@ branches:
     - main
 
 cache:
-  path:
+  directories:
     - /client
 
 script:
