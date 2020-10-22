@@ -1,6 +1,13 @@
 import React from 'react';
 import './Projects.scss';
 import images from './images.json';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Deboodle from './Pages/Deboodle/Deboodle';
 
 const Projects = () => {
     const showProjectItems = images.map((imgElement, index) => {
@@ -13,18 +20,22 @@ const Projects = () => {
                     src={imgElement.image}
                 />
                 <figcaption>{imgElement.name}</figcaption>
-                <a href='/'>View</a>
+                <Link to='/'>View</Link>
             </figure>
-      
         )
-    })
+    });
     return (
-        <div className='projects__container' id='projects'>
-            <h1>Projects I have built...</h1>
-            <div className='projects__cards'>
-                {showProjectItems}
+        <Router>
+            <div className='projects__container' id='projects'>
+                <h1>Projects I have built...</h1>
+                <div className='projects__cards'>
+                    {showProjectItems}
+                </div>
+                <Switch>
+                    <Route exact path='/' component={Deboodle}/>
+                </Switch>
             </div>
-        </div>
+        </Router>
     )
 }
 
