@@ -27,7 +27,7 @@
     {
         "id": 7,
         "name": "Bootstrap",
-        "image": ""
+        "image": "https://github.com/polinetuch/portfolio_v3/blob/main/src/components/MySkills/images/bootstrap.png?raw=true"
     },
     {
         "id": 8,
@@ -67,7 +67,7 @@
     {
         "id": 15,
         "name": "Chai JS",
-        "image": ""
+        "image": "https://github.com/polinetuch/portfolio_v3/blob/main/src/components/MySkills/images/chaijs.jpg?raw=true"
     },
     {
         "id": 16,
