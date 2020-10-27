@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
-import Deboodle from './components/Projects/Pages/Deboodle/Deboodle';
 const App = () => {
   const [openSideDrawer, setOpenSideDrawer] = useState(false);
   
@@ -32,7 +31,6 @@ const App = () => {
       <LandingPage/>
       <MySkills/>
       <Projects/>
-      {/* <Deboodle/> */}
       <Footer/>
     </div>
   );
