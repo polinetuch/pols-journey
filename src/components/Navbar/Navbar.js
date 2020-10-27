@@ -11,16 +11,16 @@ const Navbar = (props) => {
                 </div>
                 <div>
                     <h1 className='navigation__btn'>
-                        <a href='/#home'>Polinet Uch</a>
+                        <a href='/#home' target='_blank'>Polinet Uch</a>
                     </h1>
                 </div>
                 <div className='navigation__space'/>
                 <div className='navigation__navbar-items'>
                     <ul>
-                        <li><a href='/#home'>Home</a></li>
-                        <li><a href='/#my-skills'>Skills</a></li>
-                        <li><a href='/#projects'>Projects</a></li>
-                        <li><a href='/#contact'>Contact</a></li>
+                        <li><a href='/#home' target='_blank'>Home</a></li>
+                        <li><a href='/#my-skills' target='_blank'>Skills</a></li>
+                        <li><a href='/#projects' target='_blank'>Projects</a></li>
+                        <li><a href='/#contact' target='_blank'>Contact</a></li>
                     </ul>
                 </div>
             </nav>
