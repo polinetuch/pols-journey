@@ -12,10 +12,9 @@ import Deboodle from './Pages/Deboodle/Deboodle';
 const Projects = () => {
     const showProjectItems = images.map((imgElement, index) => {
         return (
-            <figure className='projects__figure-element'>
+            <figure className='projects__figure-element' key={index} >
                 <img
                     className='projects__item-image'
-                    key={index} 
                     alt={imgElement.name}
                     src={imgElement.image}
                 />

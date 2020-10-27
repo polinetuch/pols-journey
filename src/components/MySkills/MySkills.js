@@ -5,8 +5,8 @@ import images from './image.json';
 const MySkills = () => {
     const showAllImages = images.map((imgElement, index) => {
         return (
-            <figure>
-                <img className='my-skills__img-element' src={imgElement.image} key={index} alt={imgElement.name}/>
+            <figure key={index}>
+                <img className='my-skills__img-element' src={imgElement.image} alt={imgElement.name}/>
                 <figcaption>{imgElement.name}</figcaption>
             </figure>
         )
