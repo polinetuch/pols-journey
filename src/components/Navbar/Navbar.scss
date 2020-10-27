@@ -7,8 +7,10 @@
   box-shadow: 5px 3px 3px #e7d6c6;
 
   &__btn a {
+    font-family: "Caveat", cursive;
     text-decoration: none;
     color: #000;
+    font-size: 38px;
   }
   &__navbar {
     display: flex;
@@ -29,7 +31,7 @@
     padding: 10px;
     display: flex;
     font-weight: 400px;
-    font-size: 18px;
+    font-size: 25px;
   }
 
   &__navbar-items li {
@@ -43,13 +45,7 @@
   &__navbar-items a:hover,
   &__navbar-items a:focus {
     font-weight: bolder;
-    color: #e91e63;
-  }
-
-  &__btn a:hover,
-  &__btn a:focus {
-    font-weight: bolder;
-    color: #e91e63;
+    color: #4b5668;
   }
 }
 

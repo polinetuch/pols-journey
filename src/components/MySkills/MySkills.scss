@@ -3,6 +3,11 @@
     min-height: 80vh;
     padding-top: 100px;
     border-top: 5px 3px 3px black;
+
+    h1 {
+      font-family: "Caveat", cursive;
+      font-size: 70px;
+    }
   }
   &__images {
     display: flex;
