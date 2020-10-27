@@ -26,7 +26,7 @@ const Projects = () => {
     return (
         <Router>
             <div className='projects__container' id='projects'>
-                <h1>Projects I have built...</h1>
+                <h1>Projects.</h1>
                 <div className='projects__cards'>
                     {showProjectItems}
                 </div>
