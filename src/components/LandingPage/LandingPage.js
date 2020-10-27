@@ -14,9 +14,10 @@ const LandingPage = () => {
                 </figure>
             </div>
             <div className='landing-page__about-me'>
-                <h1><strong>Hi, I'm Polinet Uch</strong></h1>
+                <h1><strong>Hi, I'm Polinet Uch.</strong></h1>
                 <p>
-                    I am aspiring full stack developer.
+                    I am aspiring full stack developer. I love building and finding ways
+                    to make things easier with technology.
                 </p>        
                 <p>
                 When I am not coding, you'll probably find me in my art and craft corner heavily 

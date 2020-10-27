@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #dda882;
+    background-color: #eee9e3;
   }
 
   &__photo {
@@ -21,8 +21,8 @@
     width: 50%;
     right: 0;
     color: #191819;
-    font-size: 32px;
-    font-weight: bolder;
+    font-size: 28px;
+    // font-weight: bold;
 
     strong {
       font-family: "Caveat", cursive;
