@@ -14,23 +14,14 @@ const LandingPage = () => {
                 </figure>
             </div>
             <div className='landing-page__about-me'>
-                <h1>Hi, I'm Polinet Uch</h1>
+                <h1><strong>Hi, I'm Polinet Uch</strong></h1>
                 <p>
-                    I am aspiring full stack developer, specialising
-                    in Javascript based frameworks. I enjoy
-                    creating and making things look nice.
+                    I am aspiring full stack developer.
                 </p>        
                 <p>
-                    I also have a passion towards backend development.
-                    The ability to pass values to functions and
-                    telling it to do things for you step by step
-                    is just pure automation process.
-                </p>
-                <p>
-                    I am a very hands-on person. I love crafting.
-                    I have crafted multiple items such as photoframe, 
-                    a scented notebook, string board and many more.
-                    This is where my imagination and creativity flows.
+                When I am not coding, you'll probably find me in my art and craft corner heavily 
+                focused in my own trial and error process while I am trying out either different 
+                colors of paint or magically turned a recycle cardboard into something unexpected.
                 </p>
             </div>
         </div>
