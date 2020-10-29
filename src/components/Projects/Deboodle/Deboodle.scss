@@ -1,0 +1,16 @@
+.project {
+  &__container {
+    min-height: 100vh;
+  }
+
+  &__about {
+    font-size: 26px;
+  }
+
+  &__tech ul {
+    list-style: none;
+    font-size: 26px;
+    padding: 15px;
+    line-height: 50px;
+  }
+}
