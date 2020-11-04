@@ -1,18 +1,26 @@
 import React from 'react';
 import './Projects.scss';
 import skills from './skills.json';
-
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    useParams,
+    useRouteMatch
+  } from "react-router-dom";
+  
 const Projects = () => {
-    const showProjectItems = skills.map((imgElement, index) => {
+    const showProjectItems = skills.map((project, index) => {
         return (
             <figure className='projects__figure-element' key={index} >
                 <img
                     className='projects__item-image'
-                    alt={imgElement.name}
-                    src={imgElement.image}
+                    alt={project.name}
+                    src={project.image}
                 />
-                <figcaption>{imgElement.name}</figcaption>
-                <a href={imgElement.url}>View</a>
+                <figcaption>{project.name}</figcaption>
+                <Link to={project.url}>View</Link>
             </figure>
         )
     });
@@ -22,6 +30,7 @@ const Projects = () => {
                 <hr/>
                 <div className='projects__cards'>
                     {showProjectItems}
+                    <Link to='/deboodle'>Deboodle</Link>
                 </div>
             </div>
     )
