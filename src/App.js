@@ -4,7 +4,7 @@ import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
-import Deboodle from './components/Projects/Projects/Deboodle';
+import Deboodle from './components/Projects/ProjectPages/Deboodle';
 import {
   BrowserRouter as Router,
   Switch,

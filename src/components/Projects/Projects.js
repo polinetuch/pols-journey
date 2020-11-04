@@ -30,7 +30,6 @@ const Projects = () => {
                 <hr/>
                 <div className='projects__cards'>
                     {showProjectItems}
-                    <Link to='/deboodle'>Deboodle</Link>
                 </div>
             </div>
     )
