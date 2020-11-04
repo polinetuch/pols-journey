@@ -93,5 +93,10 @@
         "id": 20,
         "name": "React Router",
         "image": "https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/9267873881551942642-512.png"
+    },
+    {
+        "id": 21,
+        "name": "React Storybook",
+        "image": "https://user-images.githubusercontent.com/18430599/38112659-491f9112-3368-11e8-8b65-1725f19a61fa.png"
     }
 ]
