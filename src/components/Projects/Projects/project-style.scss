@@ -1,0 +1,41 @@
+.project {
+  min-height: 100vh;
+  padding-top: 100px;
+
+  h1 {
+    font-family: "Caveat", cursive;
+    font-size: 70px;
+    color: #ffc2b4;
+  }
+
+  hr {
+    border: 1px solid #99d9d9;
+    width: 30%;
+  }
+
+  &__about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+
+    ul {
+      list-style-type: none;
+    }
+
+    .line {
+      border: 1px solid #99d9d9;
+      height: 300px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    iframe {
+      width: 350px;
+      height: 350px;
+    }
+  }
+}

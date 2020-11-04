@@ -4,7 +4,7 @@
         "name": "Deboodle",
         "image": "https://github.com/polinetuch/deboodle/blob/main/client/public/logo.JPG?raw=true",
         "about": "This is a web portfolio that showcase my client's artworks and illustrations",
-        "url": "https://github.com/polinetuch/deboodle"
+        "url": "/deboodle"
     },
     {
         "id": 2,
