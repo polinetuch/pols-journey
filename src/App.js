@@ -5,6 +5,9 @@ import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
 import Deboodle from './components/Projects/ProjectPages/Deboodle';
+import NetflixClone from './components/Projects/ProjectPages/NetflixClone';
+import IEnrol from './components/Projects/ProjectPages/iEnrol';
+import Liri from './components/Projects/ProjectPages/Liri';
 import {
   BrowserRouter as Router,
   Switch,
@@ -38,6 +41,9 @@ const App = () => {
         {backdrop}
         <Switch>
           <Route path='/deboodle'><Deboodle/></Route>
+          <Route path='/ienrol'><IEnrol/></Route>
+          <Route path='/netflix-clone'><NetflixClone/></Route>
+          <Route path='/liri'><Liri/></Route>
           <Route path='/'><Home/></Route>
         </Switch>
       </Router>
