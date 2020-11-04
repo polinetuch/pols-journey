@@ -1,15 +1,14 @@
 .navigation {
   position: fixed;
   width: 100%;
-  background-color: white;
   height: 62px;
   top: 0;
-  box-shadow: 5px 3px 3px #e7d6c6;
+  background-color: #fff8ef;
 
   &__btn a {
     font-family: "Caveat", cursive;
     text-decoration: none;
-    color: #000;
+    color: #ffc2b4;
     font-size: 38px;
   }
   &__navbar {
@@ -22,7 +21,7 @@
 
   &__navbar-items a {
     text-decoration: none;
-    color: #000;
+    color: #7b7b7b;
   }
 
   &__navbar-items ul {
@@ -45,7 +44,7 @@
   &__navbar-items a:hover,
   &__navbar-items a:focus {
     font-weight: bolder;
-    color: #4b5668;
+    color: #99d9d9;
   }
 }
 
