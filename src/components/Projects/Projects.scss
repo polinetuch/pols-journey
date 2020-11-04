@@ -38,16 +38,17 @@
 
   &__figure-element:hover,
   &__figure-element:focus {
-    transform: scale(1.2);
+    transform: scale(0.9);
     opacity: 5;
   }
 
   &__figure-element {
-    color: #000;
-    text-decoration: none;
     font-weight: bold;
     font-size: 22px;
     padding: 5;
+    Link {
+      text-decoration: none;
+    }
   }
 
   &__figure-element figcaption {
@@ -61,5 +62,19 @@
     width: 250px;
     height: auto;
     line-height: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .projects {
+    &__container {
+      h1 {
+        font-size: 50px;
+      }
+
+      hr {
+        width: 70%;
+      }
+    }
   }
 }
