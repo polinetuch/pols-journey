@@ -1,29 +1,67 @@
 .footer {
   &__container {
-    min-height: 50vh;
+    min-height: 100vh;
+    padding-top: 100px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
   }
 
-  &__icon {
-    font-size: 30px;
+  &__contact {
+    color: #ffc2b4;
+    font-size: 50px;
+    right: 50%;
+
+    h1 {
+      font-family: "Caveat", cursive;
+      font-size: 70px;
+    }
+    hr {
+      border: 1px solid #99d9d9;
+    }
   }
 
-  &__navigation {
-    display: block;
-    padding: 10px 30px;
+  &__img {
+    left: 50%;
   }
 
-  &__navigation-list {
-    list-style: none;
-    font-size: 19px;
-    line-height: 5vh;
+  &__social-media {
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
+  &__social-media li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 90px;
+    padding: 20px;
 
-  &__navigation-list a {
-    color: black;
-    text-decoration: none;
+    a {
+      color: #99d9d9;
+    }
+
+    a:hover,
+    a:focus {
+      color: #ffc2b4;
+    }
   }
+  // }
+
+  // &__icon {
+  //   font-size: 30px;
+  // }
+
+  // &__navigation {
+  //   display: block;
+  //   padding: 10px 30px;
+  // }
+
+  // &__navigation-list {
+  //   list-style: none;
+  //   font-size: 19px;
+  //   line-height: 5vh;
+  // }
+
+  // &__navigation-list a {
+  //   color: black;
+  //   text-decoration: none;
 }

@@ -1,12 +1,31 @@
 import React from 'react';
 import './Footer.scss';
-import Contact from '../Contact/Contact';
-import { FcHome, FcList, FcFile } from 'react-icons/fc';
+import { FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
+import { VscGithub } from 'react-icons/vsc';
 
 const Footer = () => {
     return (
-        <div className='footer__container'>
-            <div className='footer__navigation'>
+        <div className='footer__container' id='contact'>
+            <div className='footer__img'>
+                <figure>
+                    <img src='https://www.kindpng.com/picc/m/712-7126978_transparent-teamwork-clipart-work-team-cartoon-png-png.png' alt='Teamwork'/>                
+                </figure>
+            </div>
+            <div className='footer__contact'>
+                <h1>Let's Talk!</h1>
+                <hr/>
+                <p>Email: uchpolinet@gmail.com</p>
+                <p>Mobile: 0423 833 438</p>
+                
+                <ul className='footer__social-media'>
+                    <li><a href='https://github.com/polinetuch'><VscGithub/></a></li>
+                    <li><a href='https://www.linkedin.com/in/polinetuch/'><FaLinkedin/></a></li>
+                    <li><a href='https://twitter.com/polinetuch'><FaTwitterSquare/></a></li>
+                </ul>
+                
+            </div>
+
+            {/* <div className='footer__navigation'>
                 <ul className='footer__navigation-list'>
                     <li><a href='/#home'><FcHome className='footer__icon'/> Home</a></li>
                     <li><a href='/#my-skills'><FcList className='footer__icon'/> Skills</a></li>
@@ -15,7 +34,7 @@ const Footer = () => {
             </div>
             <div>
                 <Contact/>
-            </div>
+            </div> */}
             {/* <div className='footer__social-media'>
                 <a href='https://www.linkedin.com/in/polinetuch/'>
                     <img 
