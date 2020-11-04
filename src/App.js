@@ -12,9 +12,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
-  useParams,
-  useRouteMatch
+  Link
 } from "react-router-dom";
 
 const App = () => {
