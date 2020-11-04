@@ -1,7 +1,6 @@
 import React from 'react';
 import './project-style.scss';
 import { VscGithub } from 'react-icons/vsc';
-import {BiLinkExternal} from 'react-icons/bi';
 
 const Deboodle = () => {
     return (
