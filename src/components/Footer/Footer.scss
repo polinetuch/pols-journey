@@ -2,14 +2,11 @@
   &__container {
     min-height: 100vh;
     padding-top: 100px;
-    display: flex;
-    flex-direction: row;
   }
 
   &__contact {
     color: #ffc2b4;
     font-size: 50px;
-    right: 50%;
 
     h1 {
       font-family: "Caveat", cursive;
@@ -17,11 +14,13 @@
     }
     hr {
       border: 1px solid #99d9d9;
+      width: 30%;
     }
-  }
 
-  &__img {
-    left: 50%;
+    img {
+      width: 300px;
+      height: 300px;
+    }
   }
 
   &__social-media {
@@ -44,24 +43,22 @@
       color: #ffc2b4;
     }
   }
-  // }
+}
 
-  // &__icon {
-  //   font-size: 30px;
-  // }
+@media only screen and (max-width: 768px) {
+  .footer {
+    &__container {
+      display: flex;
+      flex-direction: column;
+    }
 
-  // &__navigation {
-  //   display: block;
-  //   padding: 10px 30px;
-  // }
+    &__contact {
+      font-size: 25px;
+    }
 
-  // &__navigation-list {
-  //   list-style: none;
-  //   font-size: 19px;
-  //   line-height: 5vh;
-  // }
-
-  // &__navigation-list a {
-  //   color: black;
-  //   text-decoration: none;
+    &__img img {
+      width: 300px;
+      height: 300px;
+    }
+  }
 }
