@@ -4,6 +4,12 @@
     padding-top: 100px;
   }
 
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   &__contact {
     color: #ffc2b4;
     font-size: 50px;
@@ -47,13 +53,17 @@
 
 @media only screen and (max-width: 768px) {
   .footer {
-    &__container {
-      display: flex;
+    &__contact {
+      font-size: 25px;
+    }
+
+    &__row {
       flex-direction: column;
     }
 
-    &__contact {
-      font-size: 25px;
+    &__social-media li {
+      font-size: 65px;
+      padding: 10px;
     }
 
     &__img img {

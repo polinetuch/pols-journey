@@ -1,6 +1,6 @@
 .my-skills {
   &__container {
-    min-height: 80vh;
+    min-height: 100vh;
     padding-top: 100px;
     border-top: 5px 3px 3px black;
 
@@ -17,27 +17,27 @@
   }
 
   &__div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
     color: #7b7b7b;
-  }
-
-  &__gif {
-    width: 50%;
   }
 
   &__images {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
     justify-content: center;
-    align-self: center;
+    align-items: center;
   }
 
   &__img-element {
     width: 89px;
     height: 89px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .my-skills {
+    &__gif img {
+      height: 300px;
+      width: 300px;
+    }
   }
 }

@@ -1,12 +1,19 @@
 import React, {useState} from 'react';
 import './App.scss';
-import LandingPage from './components/LandingPage/LandingPage';
-import MySkills from './components/MySkills/MySkills';
-import Projects from './components/Projects/Projects';
-import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
 import SideDrawer from './components/Navbar/SideDrawer/SideDrawer';
 import Backdrop from './components/Navbar/Backdrop/Backdrop';
+import Deboodle from './components/Projects/Projects/Deboodle';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useParams,
+  useRouteMatch
+} from "react-router-dom";
+
 const App = () => {
   const [openSideDrawer, setOpenSideDrawer] = useState(false);
   
@@ -25,13 +32,15 @@ const App = () => {
   
   return (
     <div className="App">
-      <Navbar drawerClickHandler={handleOpenSideDrawer}/>
-      <SideDrawer showSideDrawer={openSideDrawer}/>
-      {backdrop}
-      <LandingPage/>
-      <MySkills/>
-      <Projects/>
-      <Footer/>
+      <Router>
+        <Navbar drawerClickHandler={handleOpenSideDrawer}/>
+        <SideDrawer showSideDrawer={openSideDrawer}/>
+        {backdrop}
+        <Switch>
+          <Route path='/deboodle'><Deboodle/></Route>
+          <Route path='/'><Home/></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }

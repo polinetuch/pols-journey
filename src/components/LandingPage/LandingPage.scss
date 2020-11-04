@@ -1,6 +1,6 @@
 .landing-page {
   &__container {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,8 +9,9 @@
 
   &__photo {
     box-shadow: 2px 2px 2px 2px #c5a586;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
   }
 
   &__about-me {
@@ -34,7 +35,7 @@
 @media only screen and (max-width: 768px) {
   .landing-page {
     &__container {
-      height: 100vh;
+      min-height: 100vh;
       padding-top: 100px;
     }
   }
