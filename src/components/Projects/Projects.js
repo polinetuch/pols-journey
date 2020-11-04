@@ -1,9 +1,9 @@
 import React from 'react';
 import './Projects.scss';
-import images from './images.json';
+import skills from './skills.json';
 
 const Projects = () => {
-    const showProjectItems = images.map((imgElement, index) => {
+    const showProjectItems = skills.map((imgElement, index) => {
         return (
             <figure className='projects__figure-element' key={index} >
                 <img
@@ -18,7 +18,8 @@ const Projects = () => {
     });
     return (
         <div className='projects__container' id='projects'>
-                <h1>Projects.</h1>
+                <h1>Projects</h1>
+                <hr/>
                 <div className='projects__cards'>
                     {showProjectItems}
                 </div>
