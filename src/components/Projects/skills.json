@@ -10,19 +10,19 @@
         "id": 2,
         "name": "Netflix Clone",
         "image": "https://www.zilliondesigns.com/blog/wp-content/uploads/feature-img-min-1280x720.png",
-        "url": "https://github.com/polinetuch/netflix-clone"
+        "url": "/netflix-clone"
     },
     {
         "id": 3,
         "name": "iEnrol",
         "image": "https://thumbs.dreamstime.com/b/enrollment-icon-enrollment-nomination-150860740.jpg",
-        "url": "https://github.com/polinetuch/iEnrol"
+        "url": "/ienrol"
     },
     {
         "id": 4,
         "name": "Liri Node App",
         "image": "https://pbs.twimg.com/profile_images/985996945926668288/Mn028Iql.jpg",
-        "url": "https://github.com/polinetuch/liri-node-app"
+        "url": "/liri"
     },
     {
         "id": 5,

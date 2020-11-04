@@ -35,6 +35,13 @@
       padding: 0;
     }
   }
+
+  &__links li a {
+    list-style-type: none;
+    font-size: 27px;
+    padding: 10px;
+    text-decoration: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
