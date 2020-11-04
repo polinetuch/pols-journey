@@ -1,8 +1,9 @@
 import React from 'react';
 import './LandingPage.scss';
+
 const LandingPage = () => {
     return (
-        <div className='landing-page__container' id='home'>
+        <div className='landing-page__container' id='home'>s
             <div  className='landing-page__image'>
                 <figure>
                     <img 
@@ -13,15 +14,14 @@ const LandingPage = () => {
                 </figure>
             </div>
             <div className='landing-page__about-me'>
-                <h1>Hi, I'm <strong>Polinet Uch.</strong></h1>
+                <h1>Hello from <strong>Polinet Uch.</strong></h1>
                 <p>
                     I am aspiring full stack developer. I love building and finding ways
                     to make things easier with technology.
                 </p>        
                 <p>
-                When I am not coding, you'll probably find me in my art and craft corner heavily 
-                focused in my own trial and error process while I am trying out either different 
-                colors of paint or magically turned a recycle cardboard into something unexpected.
+                When I am not coding, you'll probably find me in my art and craft corner,
+                reading more books or learning new cooking recipes.
                 </p>
             </div>
         </div>
