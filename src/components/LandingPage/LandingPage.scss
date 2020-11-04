@@ -1,6 +1,6 @@
 .landing-page {
   &__container {
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -23,6 +23,19 @@
       font-family: "Caveat", cursive;
       font-size: 90px;
       color: #ffc2b4;
+    }
+
+    hr {
+      border: 1px solid #99d9d9;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .landing-page {
+    &__container {
+      height: 100vh;
+      padding-top: 100px;
     }
   }
 }

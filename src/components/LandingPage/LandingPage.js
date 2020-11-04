@@ -3,7 +3,7 @@ import './LandingPage.scss';
 
 const LandingPage = () => {
     return (
-        <div className='landing-page__container' id='home'>s
+        <div className='landing-page__container' id='home'>
             <div  className='landing-page__image'>
                 <figure>
                     <img 
@@ -15,6 +15,7 @@ const LandingPage = () => {
             </div>
             <div className='landing-page__about-me'>
                 <h1>Hello from <strong>Polinet Uch.</strong></h1>
+                <hr/>
                 <p>
                     I am aspiring full stack developer. I love building and finding ways
                     to make things easier with technology.
