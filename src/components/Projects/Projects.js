@@ -6,7 +6,7 @@ import {
     Switch,
     Route,
     Link
-  } from "react-router-dom";
+} from "react-router-dom";
   
 const Projects = () => {
     const showProjectItems = skills.map((project, index) => {
