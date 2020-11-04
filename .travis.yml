@@ -1,25 +1,25 @@
-sudo: true
+# sudo: true
 
-language: node_js
+# language: node_js
 
-node_js:
-  - node
+# node_js:
+#   - node
 
-branches:
-  only:
-    - main
+# branches:
+#   only:
+#     - main
 
-cache:
-  directories:
-    - /client/node_modules
+# cache:
+#   directories:
+#     - /client/node_modules
 
-script:
-  - npm test
-  - npm run build
+# script:
+#   - npm test
+#   - npm run build
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  local_dir: build
-  on:
-    branch: main
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   local_dir: build
+#   on:
+#     branch: main
