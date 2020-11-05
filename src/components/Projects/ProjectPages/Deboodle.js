@@ -13,6 +13,9 @@ const Deboodle = () => {
                     <p>This is a web portfolio showcasing an artist's works 
                         and illustrations.
                     </p>
+                    <p>Customers can place order of their desired vision
+                        art into a customised cards/illustrations.
+                    </p>
                 </div>
 
                 <div className='line'></div>

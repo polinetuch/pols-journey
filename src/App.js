@@ -8,6 +8,7 @@ import Deboodle from './components/Projects/ProjectPages/Deboodle';
 import NetflixClone from './components/Projects/ProjectPages/NetflixClone';
 import IEnrol from './components/Projects/ProjectPages/iEnrol';
 import Liri from './components/Projects/ProjectPages/Liri';
+import Bamazon from './components/Projects/ProjectPages/Bamazon';
 import {
   BrowserRouter as Router,
   Switch,
@@ -42,6 +43,7 @@ const App = () => {
           <Route path='/ienrol'><IEnrol/></Route>
           <Route path='/netflix-clone'><NetflixClone/></Route>
           <Route path='/liri'><Liri/></Route>
+          <Route path='/bamazon'><Bamazon/></Route>
           <Route path='/'><Home/></Route>
         </Switch>
       </Router>
