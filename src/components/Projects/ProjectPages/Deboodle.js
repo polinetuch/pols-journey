@@ -36,14 +36,13 @@ const Deboodle = () => {
                     <h2>Links</h2>
                     <ul>
                         <li><a href='https://github.com/polinetuch/deboodle'><VscGithub/> View On Github</a></li>
-                        {/* <li><a href='https://netflix-clone-310da.web.app/'><BiLinkExternal/>Try Here</a></li> */}
                     </ul>
                 </div>
             </div>
             <hr/>
 
             <h2>View Progress Video</h2>
-            <iframe title='Deboodle Progress' src="https://drive.google.com/file/d/1gvVKsajI4xgLSlydxCxk67N74RuSW50v/preview" width="640" height="480"></iframe>
+            <iframe title='Deboodle' src="https://drive.google.com/file/d/1u2_DBb77gSDof6Vm9uyHuuAVeqvasjwy/preview" width="640" height="480"></iframe>
         </div>
     )
 }
