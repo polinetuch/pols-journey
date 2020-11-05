@@ -35,8 +35,12 @@ const BudgetApp = () => {
                         <li><a href='https://polinetuch.github.io/budget-app/'><BiLinkExternal/>Try Here</a></li>
                     </ul>
                 </div>
+
             </div>
             <hr/>
+
+            <h2>View Demo Video</h2>
+            <iframe title='Budget App' src="https://drive.google.com/file/d/1CiHiKTZ9zVXyDYoxDDI4KLCRYCB_koTJ/preview" width="640" height="480"></iframe>
         </div>
     )
 }

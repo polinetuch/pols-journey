@@ -42,6 +42,9 @@ const Festival4U = () => {
                 </div>
             </div>
             <hr/>
+
+            <h2>Video Demo Video</h2>
+            <iframe title='Festival 4U' src="https://drive.google.com/file/d/1otNJoenX9o_nAV1NV9U_mFSztVZV8kvF/preview" width="640" height="480"></iframe>
         </div>
     )
 }

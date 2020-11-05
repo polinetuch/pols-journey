@@ -41,7 +41,7 @@ const NetflixClone = () => {
             </div>
             <hr/>
 
-            <h2>View Video</h2>
+            <h2>View Demo Video</h2>
             <iframe title='Netflix Clone' src="https://drive.google.com/file/d/1Vb_FiaKUYVi0C2XhYuX-DFlh3RXs3d--/preview" width="640" height="480"></iframe>
         </div>
     )
