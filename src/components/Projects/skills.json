@@ -34,7 +34,6 @@
         "id": 6,
         "name": "Shutter",
         "image": "https://github.com/polinetuch/portfolio_v2.0/blob/master/assets/img/shutter.PNG?raw=true",
-        "Github": "https://github.com/polinetuch/Shutter",
-        "url": "https://shutter-bootcamp.herokuapp.com/"
+        "url": "/shutter"
     }
 ]

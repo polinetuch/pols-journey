@@ -9,6 +9,7 @@ import NetflixClone from './components/Projects/ProjectPages/NetflixClone';
 import IEnrol from './components/Projects/ProjectPages/iEnrol';
 import Liri from './components/Projects/ProjectPages/Liri';
 import Bamazon from './components/Projects/ProjectPages/Bamazon';
+import Shutter from './components/Projects/ProjectPages/Shutter';
 import {
   BrowserRouter as Router,
   Switch,
@@ -44,6 +45,7 @@ const App = () => {
           <Route path='/netflix-clone'><NetflixClone/></Route>
           <Route path='/liri'><Liri/></Route>
           <Route path='/bamazon'><Bamazon/></Route>
+          <Route path='/shutter'><Shutter/></Route>
           <Route path='/'><Home/></Route>
         </Switch>
       </Router>
