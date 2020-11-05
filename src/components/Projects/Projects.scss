@@ -23,16 +23,10 @@
   }
 
   &__figure-element {
-    img {
-      border-radius: 100%;
-    }
-    a {
-      color: #99d9d9;
-    }
-
-    a:hover,
-    a:focus {
-      color: #ffc2b4;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+    Link {
+      text-decoration: none;
     }
   }
 
@@ -42,20 +36,15 @@
     opacity: 5;
   }
 
-  &__figure-element {
-    font-weight: bold;
-    font-size: 22px;
-    padding: 5;
-    Link {
-      text-decoration: none;
-    }
-  }
-
   &__figure-element figcaption {
     font-weight: bolder;
     font-size: 30px;
-    color: #ffc2b4;
+    color: #99d9d9;
     padding-bottom: 10px;
+  }
+
+  &__link {
+    text-decoration: none;
   }
 
   &__item-image {

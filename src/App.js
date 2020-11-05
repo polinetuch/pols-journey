@@ -10,6 +10,8 @@ import IEnrol from './components/Projects/ProjectPages/iEnrol';
 import Liri from './components/Projects/ProjectPages/Liri';
 import Bamazon from './components/Projects/ProjectPages/Bamazon';
 import Shutter from './components/Projects/ProjectPages/Shutter';
+import BudgetApp from './components/Projects/ProjectPages/BudgetApp';
+import Festival4U from './components/Projects/ProjectPages/Festival4U';
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,11 +43,13 @@ const App = () => {
         {backdrop}
         <Switch>
           <Route path='/deboodle'><Deboodle/></Route>
-          <Route path='/ienrol'><IEnrol/></Route>
           <Route path='/netflix-clone'><NetflixClone/></Route>
+          <Route path='/ienrol'><IEnrol/></Route>
+          <Route path='/budget-app'><BudgetApp/></Route>
           <Route path='/liri'><Liri/></Route>
           <Route path='/bamazon'><Bamazon/></Route>
           <Route path='/shutter'><Shutter/></Route>
+          <Route path='/festival-4u'><Festival4U/></Route>
           <Route path='/'><Home/></Route>
         </Switch>
       </Router>
