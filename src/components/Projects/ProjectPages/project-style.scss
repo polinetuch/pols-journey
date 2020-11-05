@@ -18,11 +18,9 @@
 
   &__about {
     display: flex;
-    flex-direction: row;
-    text-align: center;
 
     div {
-      padding: 40px;
+      flex: 1 1 200px;
     }
 
     ul {
@@ -33,14 +31,16 @@
       border: 1px solid #99d9d9;
       height: 500px;
       padding: 0;
+      flex: 0;
     }
   }
 
   &__links li a {
-    list-style-type: none;
     font-size: 27px;
     padding: 10px;
     text-decoration: none;
+    list-style-type: none;
+    display: flex;
   }
 }
 

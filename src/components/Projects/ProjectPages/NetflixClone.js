@@ -11,7 +11,8 @@ const NetflixClone = () => {
             <div className='project__about'>
                 <div>
                     <h2>About</h2>
-                    <p>A frontend clone project of Netflix that queried TMDB database.
+                    <p>A clone frontend project of Netflix that was built with React and queried 
+                        The Movie Database API.
                     </p>
                 </div>
 
@@ -21,8 +22,10 @@ const NetflixClone = () => {
                     <h2>Technologies Used</h2>
                     <ul>
                         <li>React</li>
-                        <li>The Movie Database</li>
+                        <li>NPM</li>
+                        <li>The Movie Database API</li>
                         <li>Firebase</li>
+                        <li>React Youtube Player NPM</li>
                     </ul>
                 </div>
 
@@ -31,8 +34,8 @@ const NetflixClone = () => {
                 <div className='project__links'>
                     <h2>Links</h2>
                     <ul>
-                        <li><a href='https://github.com/polinetuch/netflix-clone'><VscGithub/> View On Github</a></li>
-                        <li><a href='https://netflix-clone-310da.web.app/'><BiLinkExternal/>Try Here</a></li>
+                        <li><a href='https://github.com/polinetuch/netflix-clone'><VscGithub className='projects__icons'/> View On Github</a></li>
+                        <li><a href='https://netflix-clone-310da.web.app/'><BiLinkExternal className='projects__icons'/>  Try Here</a></li>
                     </ul>
                 </div>
             </div>
