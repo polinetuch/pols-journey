@@ -14,12 +14,18 @@
     },
     {
         "id": 3,
+        "name": "Budget App",
+        "image": "/budget-app.jpg",
+        "url": "/budget-app"
+    },
+    {
+        "id": 4,
         "name": "iEnrol",
         "image": "https://thumbs.dreamstime.com/b/enrollment-icon-enrollment-nomination-150860740.jpg",
         "url": "/ienrol"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "Liri Node App",
         "image": "https://pbs.twimg.com/profile_images/985996945926668288/Mn028Iql.jpg",
         "url": "/liri"
@@ -35,5 +41,11 @@
         "name": "Shutter",
         "image": "https://github.com/polinetuch/portfolio_v2.0/blob/master/assets/img/shutter.PNG?raw=true",
         "url": "/shutter"
+    },
+    {
+        "id": 7,
+        "name": "Festival 4U",
+        "image": "https://github.com/polinetuch/portfolio_v2.0/blob/master/assets/img/along-came-polly.PNG?raw=true",
+        "url": "/festival-4u"
     }
 ]
