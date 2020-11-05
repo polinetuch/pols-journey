@@ -5,7 +5,7 @@ import { VscGithub } from 'react-icons/vsc';
 const Deboodle = () => {
     return (
         <div className='project'>
-            <h1>Deboodle</h1>
+            <h1>Deboodle - in progress</h1>
             <hr/>
             <div className='project__about'>
                 <div>

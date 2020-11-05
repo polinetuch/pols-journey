@@ -1,8 +1,9 @@
 .project {
   min-height: 100vh;
   padding-top: 100px;
+  padding-bottom: 100px;
   color: #7b7b7b;
-  font-size: 22px;
+  font-size: 30px;
 
   h1,
   h2 {
@@ -36,7 +37,7 @@
   }
 
   &__links li a {
-    font-size: 27px;
+    font-size: 30px;
     padding: 10px;
     text-decoration: none;
     list-style-type: none;
