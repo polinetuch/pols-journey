@@ -1,3 +1,12 @@
+$pink: #ffc2b4;
+$blue: #99d9d9;
+$green: #e8f1e3;
+$brown: #7b7b7b;
+$gold: #c5a586;
+$h1-strong: 90px;
+$p-size: 28px;
+$font: "Caveat", cursive;
+
 .landing-page {
   &__container {
     min-height: 100vh;
@@ -8,26 +17,63 @@
   }
 
   &__photo {
-    box-shadow: 2px 2px 2px 2px #c5a586;
+    box-shadow: 2px 2px 2px 2px $gold;
+    border-radius: 80%;
     width: 100%;
     max-width: 500px;
     height: auto;
+    position: relative;
+    z-index: 5;
+  }
+
+  &__green {
+    background-color: $green;
+    width: 300px;
+    height: 300px;
+    border-radius: 80%;
+    position: absolute;
+    top: 490px;
+    left: 200px;
+  }
+
+  &__pink {
+    font-family: $font;
+    font-size: 45px;
+    text-align: center;
+    background-color: $pink;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    z-index: 7;
+  }
+
+  &__blue {
+    background-color: $blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 250px;
+    left: 200px;
   }
 
   &__about-me {
     width: 50%;
     right: 0;
-    color: #7b7b7b;
-    font-size: 28px;
+    color: $brown;
+    font-size: $p-size;
 
     strong {
-      font-family: "Caveat", cursive;
-      font-size: 90px;
-      color: #ffc2b4;
+      font-family: $font;
+      font-size: $h1-strong;
+      color: $pink;
     }
 
     hr {
-      border: 1px solid #99d9d9;
+      border: 1px solid $blue;
     }
   }
 }
@@ -38,6 +84,12 @@
       min-height: 100vh;
       padding-top: 100px;
       flex-direction: column;
+    }
+
+    &__green,
+    &__blue,
+    &__pink {
+      display: none;
     }
 
     &__about-me {
