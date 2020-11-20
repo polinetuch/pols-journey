@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './MySkills.scss';
 import images from './image.json';
 
 const MySkills = () => {
-    const showAllImages = images.map((imgElement, index) => {
+
+    const showAllImages = images.map((project, index) => {
         return (
             <figure key={index}>
-                <img className='my-skills__img-element' src={imgElement.image} alt={imgElement.name}/>
-                <figcaption>{imgElement.name}</figcaption>
+                <img className='my-skills__img-element' src={project.image} alt={project.name}/>
+                <figcaption>{project.name}</figcaption>
             </figure>
-        )
+        );
     })
     return (
         <div className='my-skills__container' id='my-skills'>

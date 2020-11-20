@@ -41,6 +41,7 @@ const App = () => {
         <Navbar drawerClickHandler={handleOpenSideDrawer}/>
         <SideDrawer showSideDrawer={openSideDrawer}/>
         {backdrop}
+        
         <Switch>
           <Route path='/deboodle'><Deboodle/></Route>
           <Route path='/netflix-clone'><NetflixClone/></Route>
