@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.scss';
 import Hamburger from './Hamburger/Hamburger';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 const Navbar = (props) => {
     return (
@@ -20,6 +21,7 @@ const Navbar = (props) => {
                         <li><a href='/#home'>Home</a></li>
                         <li><a href='/#my-skills'>Skills</a></li>
                         <li><a href='/#projects'>Projects</a></li>
+                        <li><Link to='/resume'>Resume</Link></li>
                         <li><a href='/#contact'>Contact</a></li>
                     </ul>
                 </div>
