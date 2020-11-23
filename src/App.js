@@ -12,6 +12,7 @@ import Bamazon from './components/Projects/ProjectPages/Bamazon';
 import Shutter from './components/Projects/ProjectPages/Shutter';
 import BudgetApp from './components/Projects/ProjectPages/BudgetApp';
 import Festival4U from './components/Projects/ProjectPages/Festival4U';
+import Resume from './components/Resume/Resume';
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,8 +42,8 @@ const App = () => {
         <Navbar drawerClickHandler={handleOpenSideDrawer}/>
         <SideDrawer showSideDrawer={openSideDrawer}/>
         {backdrop}
-        
         <Switch>
+          <Route path='/resume'><Resume/></Route>
           <Route path='/deboodle'><Deboodle/></Route>
           <Route path='/netflix-clone'><NetflixClone/></Route>
           <Route path='/ienrol'><IEnrol/></Route>

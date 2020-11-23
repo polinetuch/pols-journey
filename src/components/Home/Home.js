@@ -4,7 +4,7 @@ import MySkills from '../MySkills/MySkills';
 import Projects from '../Projects/Projects';
 import Footer from '../Footer/Footer';
 
-function Home() {
+const Home = () => {
     return (
         <div>
             <LandingPage/>
