@@ -8,14 +8,11 @@ const LandingPage = () => {
             <div>
                 <Bounce left>
                     <figure>
-                        <div className='landing-page__pink'>Poli</div>
                         <img 
                             className='landing-page__photo'
                             alt='Cartoon Of Poli'
                             src='https://github.com/polinetuch/portfolio_v2.0/blob/master/assets/img/polinetuch.jpg?raw=true'
                         />
-                        <div className='landing-page__green'></div>
-                        <div className='landing-page__blue'></div>
                     </figure>
                 </Bounce>
             </div>
