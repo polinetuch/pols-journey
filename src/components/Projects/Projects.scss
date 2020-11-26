@@ -2,6 +2,7 @@
   &__container {
     min-height: 100vh;
     padding-top: 100px;
+    font-size: 2rem;
 
     h1 {
       font-family: "Caveat", cursive;
@@ -18,39 +19,49 @@
   &__cards {
     display: flex;
     flex-wrap: wrap;
-    padding: 0;
+    align-items: center;
     justify-content: center;
   }
 
   &__figure-element {
-    background-color: white;
-    border-radius: 10px 10px 10px 10px;
-    Link {
-      text-decoration: none;
+    width: 25%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #99d9d9;
+    h3 {
+      color: #f08e80;
     }
   }
 
-  &__figure-element:hover,
-  &__figure-element:focus {
-    transform: scale(0.9);
-    opacity: 5;
-  }
-
-  &__figure-element figcaption {
-    font-weight: bolder;
-    font-size: 30px;
-    color: #99d9d9;
-    padding-bottom: 10px;
-  }
-
   &__link {
+    padding: 10px;
+    color: white;
+    background-color: #99d9d9;
+    border: 1px solid #99d9d9;
+    border-radius: 5px 5px 5px 5px;
     text-decoration: none;
   }
 
+  &__link:hover,
+  &__link:focus {
+    color: black;
+  }
+
   &__item-image {
-    width: 250px;
+    width: 60%;
     height: auto;
-    line-height: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  &__item-image:hover {
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
   }
 }
 
@@ -64,6 +75,22 @@
       hr {
         width: 70%;
       }
+      p {
+        font-size: 22px;
+      }
+    }
+
+    &__figure-element {
+      width: 50%;
+      height: auto;
+      padding: 20px;
+      border: 1px solid #99d9d9;
+      h3 {
+        color: #f08e80;
+      }
+    }
+    &__item-image {
+      width: 200px;
     }
   }
 }

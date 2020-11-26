@@ -12,14 +12,15 @@ const Projects = () => {
     const showProjectItems = skills.map((project, index) => {
         return (
             <figure className='projects__figure-element' key={index} >
-                <Link className='projects__link' to={project.url}>
                     <img
                         className='projects__item-image'
                         alt={project.name}
                         src={project.image}
                     />
-                    <figcaption>{project.name}</figcaption>
-                </Link>
+                    <figcaption>
+                        <h3>{project.name}</h3>
+                        <Link className='projects__link' to={project.url}>View</Link>
+                    </figcaption>
             </figure>
         )
     });
@@ -27,6 +28,9 @@ const Projects = () => {
         <div className='projects__container' id='projects'>
                 <h1>Projects</h1>
                 <hr/>
+                <p>These are the projects I have built individually and as a team.
+                    Please click VIEW to read more about each of the project.
+                </p>
                 <div className='projects__cards'>
                     {showProjectItems}
                 </div>

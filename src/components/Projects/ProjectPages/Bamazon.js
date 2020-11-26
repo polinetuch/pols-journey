@@ -1,10 +1,19 @@
 import React from 'react';
 import './project-style.scss';
 import { VscGithub } from 'react-icons/vsc';
+import { 
+    FaNode, FaNpm, FaGithub, 
+    FaJsSquare, FaGitSquare,
+} from "react-icons/fa";
+import {DiVisualstudio, DiMysql} from 'react-icons/di';
 
 const Bamazon = () => {
     return (
         <div className='project'>
+            <img alt='Bamazon'
+                className='project__header-img'
+                src='https://caseyferguson.dev/assets/images/Bamazon.jpg'
+            />
             <h1>Bamazon</h1>
             <hr/>
             <div className='project__about'>
@@ -21,10 +30,13 @@ const Bamazon = () => {
                 <div>
                     <h2>Technologies Used</h2>
                     <ul>
-                        <li>Javascript</li>
-                        <li>Node</li>
-                        <li>MySQL - Sequelize</li>
-                        <li>NPM</li>
+                        <li><FaJsSquare/> Javascript</li>
+                        <li><DiMysql/> MySQL - Sequelize</li>
+                        <li><FaNpm/> NPM</li>
+                        <li><FaNode/> Node</li>
+                        <li><FaGithub/> Github</li>
+                        <li><FaGitSquare/> Github</li>
+                        <li><DiVisualstudio/> Visual Studio Code</li>
                     </ul>
                 </div>
 
@@ -36,6 +48,20 @@ const Bamazon = () => {
                         <li><a href='https://github.com/polinetuch/bamazon'><VscGithub/> View On Github</a></li>
                     </ul>
                 </div>
+            </div>
+            <hr/>
+
+            <div className='project__about'>
+            <h4>How it works:</h4>
+                    <ol>
+                        <li>The app prompts users with two messages:
+                            to enter product ID and quantity
+                        </li>
+                        <li>User's input will then contact the Bamazon MySQL database</li>
+                        <li>User can also view the information of product that matches their selected ID and quantity</li>
+                        <li>Total price of the order is calculated</li>
+                        <li>The quantity of the products get purchased will be updated in the database</li>
+                    </ol>
             </div>
             <hr/>
 
