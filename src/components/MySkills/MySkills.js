@@ -1,14 +1,17 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './MySkills.scss';
 import images from './image.json';
+import Slide from 'react-reveal/Slide';
 
 const MySkills = () => {
 
     const showAllImages = images.map((project, index) => {
         return (
             <figure key={index}>
-                <img className='my-skills__img-element' src={project.image} alt={project.name}/>
-                <figcaption>{project.name}</figcaption>
+                <Slide left>
+                    <img className='my-skills__img-element' src={project.image} alt={project.name}/>
+                    <figcaption>{project.name}</figcaption>
+                </Slide>
             </figure>
         );
     })
@@ -26,6 +29,7 @@ const MySkills = () => {
                     {showAllImages}
                 </div>
             </div>
+            <a href='#projects' className='my-skills__btn'>View My Projects</a>
         </div>
     )
 };

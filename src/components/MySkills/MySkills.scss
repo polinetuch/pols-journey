@@ -2,11 +2,11 @@
   &__container {
     min-height: 100vh;
     padding-top: 100px;
+    padding-bottom: 100px;
     border-top: 5px 3px 3px black;
 
     h1 {
-      font-family: "Caveat", cursive;
-      font-size: 70px;
+      font-size: 40px;
       color: #ffc2b4;
     }
 
@@ -17,7 +17,8 @@
   }
 
   &__div {
-    color: #7b7b7b;
+    color: black;
+    padding-bottom: 50px;
   }
 
   &__images {
@@ -28,8 +29,17 @@
   }
 
   &__img-element {
-    width: 89px;
-    height: 89px;
+    width: 100px;
+  }
+
+  &__btn {
+    font-family: "Quicksand", sans-serif;
+    padding: 10px;
+    font-size: 28px;
+    color: white;
+    background-color: #f08e80;
+    border: 1px solid #f08e80;
+    text-decoration: none;
   }
 }
 

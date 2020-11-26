@@ -3,7 +3,7 @@
   width: 100%;
   height: 62px;
   top: 0;
-  background-color: #fff8ef;
+  background-color: #fdf0e6;
 
   &__btn a {
     font-family: "Caveat", cursive;
@@ -21,7 +21,7 @@
 
   &__navbar-items a {
     text-decoration: none;
-    color: #7b7b7b;
+    color: black;
   }
 
   &__navbar-items ul {
@@ -44,7 +44,7 @@
   &__navbar-items a:hover,
   &__navbar-items a:focus {
     font-weight: bolder;
-    color: #99d9d9;
+    color: #7b7b7b;
   }
 }
 

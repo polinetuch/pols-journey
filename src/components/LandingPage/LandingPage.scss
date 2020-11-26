@@ -14,6 +14,7 @@ $font: "Caveat", cursive;
     flex-wrap: row;
     justify-content: center;
     align-items: center;
+    background-color: #fdf0e6;
   }
 
   &__photo {
@@ -63,7 +64,7 @@ $font: "Caveat", cursive;
   &__about-me {
     width: 50%;
     right: 0;
-    color: $brown;
+    color: black;
     font-size: $p-size;
 
     strong {
