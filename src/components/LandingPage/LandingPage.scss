@@ -27,40 +27,6 @@ $font: "Caveat", cursive;
     z-index: 5;
   }
 
-  &__green {
-    background-color: $green;
-    width: 300px;
-    height: 300px;
-    border-radius: 80%;
-    position: absolute;
-    top: 490px;
-    left: 200px;
-  }
-
-  &__pink {
-    font-family: $font;
-    font-size: 45px;
-    text-align: center;
-    background-color: $pink;
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-    position: absolute;
-    top: 300px;
-    left: 250px;
-    z-index: 7;
-  }
-
-  &__blue {
-    background-color: $blue;
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    position: absolute;
-    top: 250px;
-    left: 200px;
-  }
-
   &__about-me {
     width: 50%;
     right: 0;
