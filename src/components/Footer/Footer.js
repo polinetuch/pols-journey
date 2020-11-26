@@ -7,15 +7,11 @@ const Footer = () => {
     return (
         <div className='footer__container' id='contact'>
             <div className='footer__contact'>
-                <h1>Let's Talk!</h1>
+                <figure>
+                    <img src='https://media1.giphy.com/media/3kwdmXOdvGPbTBxFb7/source.gif' alt='Teamwork'/>                
+                </figure>
                 <hr/>
                 <div className='footer__row'>
-                    <div className='footer__row-img'>
-                        <figure>
-                            <img src='https://www.kindpng.com/picc/m/712-7126978_transparent-teamwork-clipart-work-team-cartoon-png-png.png' alt='Teamwork'/>                
-                        </figure>
-                    </div>
-
                     <div className='footer__row-contact'>
                         <p>Email: uchpolinet@gmail.com</p>
                         <p>Mobile: 0423 833 438</p>
@@ -24,6 +20,7 @@ const Footer = () => {
                             <li><a href='https://www.linkedin.com/in/polinetuch/'><FaLinkedin/></a></li>
                             <li><a href='https://twitter.com/polinetuch'><FaTwitterSquare/></a></li>
                         </ul>
+                        <p className='footer__copyright'>Made by Polinet Uch 2020</p>
                     </div>
                 </div>
             </div>
